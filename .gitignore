@@ -7,6 +7,17 @@ data/*
 results/*
 !results/.gitkeep
 
+# Raw ROI signals fMRI
+data/ROISignals_AAL3_NiftiPreprocessedAllBatchesNorm/
+
+# Tensors grandes
+**/GLOBAL_TENSOR.npz
+**/tensor_*.npz
+
+# Salidas grandes en results
+results/
+
+
 # Conectomas, tensores, modelos
 *.npz
 *.npy
