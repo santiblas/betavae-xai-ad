@@ -1,0 +1,49 @@
+# =============================
+# Datos sensibles / pesados
+# =============================
+data/*
+!data/README.md
+
+results/*
+!results/.gitkeep
+
+# Conectomas, tensores, modelos
+*.npz
+*.npy
+*.mat
+*.nii
+*.nii.gz
+*.pt
+*.pth
+*.joblib
+*.h5
+*.ckpt
+
+# Logs pesados
+*.log
+*.csv.gz
+
+# Salidas temporales de notebooks
+.ipynb_checkpoints/
+.notebooks_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Entornos
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Otros
+.DS_Store
+Thumbs.db
