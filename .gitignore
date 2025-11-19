@@ -3,6 +3,11 @@
 # =============================
 data/*
 !data/README.md
+# Permitir CSV de metadatos ligeros (mapping, etc.)
+!data/*.csv
+# Pero NO subir tablas con datos de sujetos
+data/SubjectsData*.csv
+
 
 results/*
 !results/.gitkeep
@@ -10,13 +15,13 @@ results/*
 # Raw ROI signals fMRI
 data/ROISignals_AAL3_NiftiPreprocessedAllBatchesNorm/
 
+
 # Tensors grandes
 **/GLOBAL_TENSOR.npz
 **/tensor_*.npz
 
 # Salidas grandes en results
 results/
-
 
 # Conectomas, tensores, modelos
 *.npz
@@ -34,27 +39,10 @@ results/
 *.log
 *.csv.gz
 
+# Exports HTML de notebooks
+notebooks/*.html
+
 # Salidas temporales de notebooks
 .ipynb_checkpoints/
 .notebooks_cache/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# VS Code / IDE
-.vscode/
-.idea/
-
-# Entornos
-.env
-.venv/
-*.egg-info/
-dist/
-build/
-
-# Otros
-.DS_Store
-Thumbs.db
+notebooks/qc_outputs_doctoral/   # <--- ignorar carpeta de QC
