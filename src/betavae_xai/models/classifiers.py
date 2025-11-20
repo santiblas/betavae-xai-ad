@@ -179,7 +179,7 @@ def get_classifier_and_grid(
         param_distributions = {
             # Estructura del árbol
             "model__max_depth":        IntDistribution(3, 12),
-            "model__num_leaves":       IntDistribution(8, 2**10),
+            "model__num_leaves":       IntDistribution(4, 64),
 
             # Muestras y features por árbol
             "model__bagging_fraction": FloatDistribution(0.5, 1.0),
@@ -260,7 +260,7 @@ def get_classifier_and_grid(
             "model__gamma":            FloatDistribution(0.0, 5.0),
             "model__n_estimators":     IntDistribution(500, 1500),
             "model__learning_rate":    FloatDistribution(1e-4, 0.1, log=True),
-            "model__max_depth":        IntDistribution(4, 12),
+            "model__max_depth":        IntDistribution(2, 8),
             "model__subsample":        FloatDistribution(0.3, 1.0),
             "model__colsample_bytree": FloatDistribution(0.5, 1.0),
             "model__min_child_weight": FloatDistribution(0.5, 10.0, log=True),
