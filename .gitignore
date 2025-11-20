@@ -46,3 +46,5 @@ notebooks/*.html
 .ipynb_checkpoints/
 .notebooks_cache/
 notebooks/qc_outputs_doctoral/   # <--- ignorar carpeta de QC
+__pycache__/
+*.egg-info/

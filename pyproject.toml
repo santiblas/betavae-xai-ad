@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "betavae-xai-ad"
+version = "0.1.0"
+description = "β-VAE + XAI pipeline for AD vs CN"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["betavae_xai*"]
