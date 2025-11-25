@@ -1,0 +1,11 @@
+ROI_src,ROI_dst,Network_src,Network_dst,pi,tau,signedness,stability_mag,w_signed,Cohen_d_AD_minus_CN,connection_id
+OFClat_L,Cerebelum_7b_L,Limbic_B_OFC,Background/NonCortical,0.6,1.0,-1.0,0.6,-0.6,0.24116893,"('Cerebelum_7b_L', 'OFClat_L')"
+OFCant_L,OFCmed_L,Limbic_B_OFC,Limbic_B_OFC,0.6,1.0,1.0,0.6,0.6,0.17667611,"('OFCant_L', 'OFCmed_L')"
+Cingulate_Post_L,Thal_MDm_L,DefaultMode_Core,Background/NonCortical,0.6,0.6,-0.6,0.36,-0.36,0.02648282,"('Cingulate_Post_L', 'Thal_MDm_L')"
+Insula_R,OFCant_R,Salience_VentralAttention_A,Limbic_B_OFC,0.6,0.6,0.6,0.36,0.36,0.12867507,"('Insula_R', 'OFCant_R')"
+OFCant_L,ACC_pre_L,Limbic_B_OFC,DefaultMode_VentralMedial,0.6,0.6,0.6,0.36,0.36,0.29735392,"('ACC_pre_L', 'OFCant_L')"
+SupraMarginal_L,Cingulate_Post_L,Salience_VentralAttention_B,DefaultMode_Core,0.6,0.6,-0.6,0.36,-0.36,0.00094546675,"('Cingulate_Post_L', 'SupraMarginal_L')"
+OFClat_L,Cerebelum_4_5_L,Limbic_B_OFC,Background/NonCortical,0.6,0.6,-0.6,0.36,-0.36,0.046064787,"('Cerebelum_4_5_L', 'OFClat_L')"
+Postcentral_R,Cerebelum_10_L,Somatomotor_A,Background/NonCortical,0.6,0.6,-0.6,0.36,-0.36,0.16105302,"('Cerebelum_10_L', 'Postcentral_R')"
+SupraMarginal_R,OFCant_L,Salience_VentralAttention_B,Limbic_B_OFC,0.6,0.6,0.6,0.36,0.36,0.1675289,"('OFCant_L', 'SupraMarginal_R')"
+Temporal_Pole_Sup_R,Thal_MDm_L,Limbic_A_TempPole,Background/NonCortical,0.6,0.6,-0.6,0.36,-0.36,-0.057139326,"('Temporal_Pole_Sup_R', 'Thal_MDm_L')"
