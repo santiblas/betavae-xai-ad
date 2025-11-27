@@ -1,0 +1,25 @@
+Run Arguments:
+{'global_tensor_path': '/home/diego/Escritorio/limpio/AAL3_dynamicROIs_fmri_tensor_NeuroEnhanced_v6.5.17_AAL3_131ROIs_OMST_GCE_Signed_GrangerLag1_ChNorm_ROIreorderedYeo17_ParallelTuned/GLOBAL_TENSOR_from_AAL3_dynamicROIs_fmri_tensor_NeuroEnhanced_v6.5.17_AAL3_131ROIs_OMST_GCE_Signed_GrangerLag1_ChNorm_ROIreorderedYeo17_ParallelTuned.npz', 'metadata_path': '/home/diego/Escritorio/limpio/SubjectsData_AAL3_procesado2.csv', 'output_dir': 'ablation_full_run_fast/single_ch1', 'channels_to_use': [1], 'outer_folds': 3, 'repeated_outer_folds_n_repeats': 1, 'inner_folds': 5, 'classifier_stratify_cols': ['Sex'], 'classifier_hp_tune_ratio': 0.25, 'num_conv_layers_encoder': 4, 'decoder_type': 'convtranspose', 'latent_dim': 128, 'lr_vae': 0.0001, 'epochs_vae': 100, 'batch_size': 128, 'beta_vae': 1.2, 'cyclical_beta_n_cycles': 2, 'cyclical_beta_ratio_increase': 0.4, 'weight_decay_vae': 1e-05, 'vae_final_activation': 'linear', 'intermediate_fc_dim_vae': 'quarter', 'dropout_rate_vae': 0.2, 'use_layernorm_vae_fc': False, 'vae_val_split_ratio': 0.2, 'early_stopping_patience_vae': 10, 'lr_scheduler_patience_vae': 15, 'lr_scheduler_type': 'cosine_warm', 'lr_scheduler_T0': 10, 'lr_scheduler_eta_min': 1e-06, 'classifier_types': ['logreg'], 'clf_no_tune': True, 'optuna_max_trials': 10, 'optuna_timeout': 120, 'use_optuna_pruner': False, 'latent_features_type': 'mu', 'gridsearch_scoring': 'roc_auc', 'classifier_use_class_weight': True, 'classifier_calibrate': False, 'use_smote': False, 'tune_sampler_params': False, 'mlp_classifier_hidden_layers': '64,16', 'metadata_features': ['Age', 'Sex'], 'norm_mode': 'zscore_offdiag', 'seed': 42, 'num_workers': 4, 'n_jobs_gridsearch': 1, 'log_interval_epochs_vae': 5, 'save_fold_artefacts': False, 'no_smote': True, 'save_vae_training_history': False, 'fast_ablation': True, 'git_hash': 'b5278829109bfde0284c84557d8346c6997d5fc0'}
+
+Git Commit Hash: b5278829109bfde0284c84557d8346c6997d5fc0
+
+--- Metrics Summary for Classifier: logreg ---
+Auc                 : 0.7505 +/- 0.0344
+Pr_auc              : 0.7828 +/- 0.0377
+Accuracy            : 0.6957 +/- 0.0084
+Balanced_accuracy   : 0.6947 +/- 0.0070
+Sensitivity         : 0.7587 +/- 0.1166
+Specificity         : 0.6307 +/- 0.1108
+F1_score            : 0.7177 +/- 0.0348
+
+Full Metrics DataFrame Description:
+       fold       auc    pr_auc  accuracy  balanced_accuracy  sensitivity  specificity  f1_score
+count   3.0  3.000000  3.000000  3.000000           3.000000     3.000000     3.000000  3.000000
+mean    2.0  0.750461  0.782766  0.695664           0.694694     0.758737     0.630651  0.717739
+std     1.0  0.034438  0.037745  0.008399           0.007012     0.116558     0.110825  0.034840
+min     1.0  0.724731  0.741567  0.688525           0.689583     0.625000     0.566667  0.677966
+25%     1.5  0.730900  0.766309  0.691036           0.690697     0.718750     0.566667  0.705180
+50%     2.0  0.737069  0.791050  0.693548           0.691810     0.812500     0.566667  0.732394
+75%     2.5  0.763326  0.803365  0.699233           0.697249     0.825605     0.662644  0.737626
+max     3.0  0.789583  0.815680  0.704918           0.702688     0.838710     0.758621  0.742857
+

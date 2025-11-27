@@ -48,6 +48,5 @@ notebooks/*.html
 notebooks/qc_outputs_doctoral/   # <--- ignorar carpeta de QC
 __pycache__/
 *.egg-info/
-notebooks/qc_outputs_doctoral/
 notebooks/run_vae_clf_ad63.ipynb
 .vscode/
