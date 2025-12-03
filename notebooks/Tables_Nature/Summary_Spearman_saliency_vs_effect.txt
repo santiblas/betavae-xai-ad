@@ -1,3 +1,3 @@
-Spearman rho(|S|,|d|) = -0.1538
-p-value = 0.6331
-N_edges = 12
+Spearman rho(|S|,|d|) = 0.3091
+p-value = 0.355
+N_edges = 11
