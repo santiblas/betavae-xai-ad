@@ -1,0 +1,7 @@
+level_0,level_1,pi_d,tau_d,signedness_d,stability_mag_d,w_signed_d
+Rectus_L,Temporal_Inf_L,0.6,1.0,1.0,0.6,0.6
+Amygdala_R,Frontal_Sup_2_L,0.6,1.0,1.0,0.6,0.6
+ParaHippocampal_R,Temporal_Inf_L,0.6,1.0,1.0,0.6,0.6
+Cerebelum_9_L,Occipital_Inf_L,0.6,1.0,1.0,0.6,0.6
+OFCpost_R,Rectus_L,0.6,0.6,0.6,0.36000001430511475,0.36000001430511475
+Olfactory_L,Paracentral_Lobule_R,0.6,0.6,-0.6,0.36000001430511475,-0.36000001430511475
