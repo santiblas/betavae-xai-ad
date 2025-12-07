@@ -45,7 +45,7 @@ notebooks/*.html
 # Salidas temporales de notebooks
 .ipynb_checkpoints/
 .notebooks_cache/
-notebooks/qc_outputs_doctoral/   # <--- ignorar carpeta de QC
+notebooks/qc_outputs_doctoral/
 __pycache__/
 *.egg-info/
 notebooks/run_vae_clf_ad63.ipynb
